@@ -1,0 +1,270 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B027E5001650E53000199D1E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B027E4FF1650E53000199D1E /* Cocoa.framework */; };
+		B027E50A1650E53000199D1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B027E5081650E53000199D1E /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B027E4FC1650E53000199D1E /* GrowlForTweetbot.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrowlForTweetbot.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B027E4FF1650E53000199D1E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B027E5021650E53000199D1E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B027E5031650E53000199D1E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B027E5041650E53000199D1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B027E5071650E53000199D1E /* GrowlForTweetbot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GrowlForTweetbot-Info.plist"; sourceTree = "<group>"; };
+		B027E5091650E53000199D1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B027E50B1650E53000199D1E /* GrowlForTweetbot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GrowlForTweetbot-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B027E4F91650E53000199D1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B027E5001650E53000199D1E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B027E4F11650E53000199D1E = {
+			isa = PBXGroup;
+			children = (
+				B027E5051650E53000199D1E /* GrowlForTweetbot */,
+				B027E4FE1650E53000199D1E /* Frameworks */,
+				B027E4FD1650E53000199D1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B027E4FD1650E53000199D1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B027E4FC1650E53000199D1E /* GrowlForTweetbot.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B027E4FE1650E53000199D1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B027E4FF1650E53000199D1E /* Cocoa.framework */,
+				B027E5011650E53000199D1E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B027E5011650E53000199D1E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B027E5021650E53000199D1E /* AppKit.framework */,
+				B027E5031650E53000199D1E /* CoreData.framework */,
+				B027E5041650E53000199D1E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B027E5051650E53000199D1E /* GrowlForTweetbot */ = {
+			isa = PBXGroup;
+			children = (
+				B027E5061650E53000199D1E /* Supporting Files */,
+			);
+			path = GrowlForTweetbot;
+			sourceTree = "<group>";
+		};
+		B027E5061650E53000199D1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B027E5071650E53000199D1E /* GrowlForTweetbot-Info.plist */,
+				B027E5081650E53000199D1E /* InfoPlist.strings */,
+				B027E50B1650E53000199D1E /* GrowlForTweetbot-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B027E4FB1650E53000199D1E /* GrowlForTweetbot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B027E50E1650E53000199D1E /* Build configuration list for PBXNativeTarget "GrowlForTweetbot" */;
+			buildPhases = (
+				B027E4F81650E53000199D1E /* Sources */,
+				B027E4F91650E53000199D1E /* Frameworks */,
+				B027E4FA1650E53000199D1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrowlForTweetbot;
+			productName = GrowlForTweetbot;
+			productReference = B027E4FC1650E53000199D1E /* GrowlForTweetbot.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B027E4F31650E53000199D1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Linghua Zhang";
+			};
+			buildConfigurationList = B027E4F61650E53000199D1E /* Build configuration list for PBXProject "GrowlForTweetbot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B027E4F11650E53000199D1E;
+			productRefGroup = B027E4FD1650E53000199D1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B027E4FB1650E53000199D1E /* GrowlForTweetbot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B027E4FA1650E53000199D1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B027E50A1650E53000199D1E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B027E4F81650E53000199D1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B027E5081650E53000199D1E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B027E5091650E53000199D1E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B027E50C1650E53000199D1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B027E50D1650E53000199D1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B027E50F1650E53000199D1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GrowlForTweetbot/GrowlForTweetbot-Prefix.pch";
+				INFOPLIST_FILE = "GrowlForTweetbot/GrowlForTweetbot-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B027E5101650E53000199D1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GrowlForTweetbot/GrowlForTweetbot-Prefix.pch";
+				INFOPLIST_FILE = "GrowlForTweetbot/GrowlForTweetbot-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B027E4F61650E53000199D1E /* Build configuration list for PBXProject "GrowlForTweetbot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B027E50C1650E53000199D1E /* Debug */,
+				B027E50D1650E53000199D1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B027E50E1650E53000199D1E /* Build configuration list for PBXNativeTarget "GrowlForTweetbot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B027E50F1650E53000199D1E /* Debug */,
+				B027E5101650E53000199D1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B027E4F31650E53000199D1E /* Project object */;
+}
