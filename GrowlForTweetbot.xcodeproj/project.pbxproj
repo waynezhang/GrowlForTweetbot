@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B027E5001650E53000199D1E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B027E4FF1650E53000199D1E /* Cocoa.framework */; };
 		B027E50A1650E53000199D1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B027E5081650E53000199D1E /* InfoPlist.strings */; };
+		B027E5161650E5F900199D1E /* GrowlForTweetbot.m in Sources */ = {isa = PBXBuildFile; fileRef = B027E5151650E5F900199D1E /* GrowlForTweetbot.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,8 @@
 		B027E5071650E53000199D1E /* GrowlForTweetbot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GrowlForTweetbot-Info.plist"; sourceTree = "<group>"; };
 		B027E5091650E53000199D1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B027E50B1650E53000199D1E /* GrowlForTweetbot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GrowlForTweetbot-Prefix.pch"; sourceTree = "<group>"; };
+		B027E5141650E5F900199D1E /* GrowlForTweetbot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowlForTweetbot.h; sourceTree = "<group>"; };
+		B027E5151650E5F900199D1E /* GrowlForTweetbot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowlForTweetbot.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				B027E5061650E53000199D1E /* Supporting Files */,
+				B027E5141650E5F900199D1E /* GrowlForTweetbot.h */,
+				B027E5151650E5F900199D1E /* GrowlForTweetbot.m */,
 			);
 			path = GrowlForTweetbot;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B027E5161650E5F900199D1E /* GrowlForTweetbot.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,10 +228,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GrowlForTweetbot/GrowlForTweetbot-Prefix.pch";
 				INFOPLIST_FILE = "GrowlForTweetbot/GrowlForTweetbot-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = bundle;
 			};
@@ -235,10 +244,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GrowlForTweetbot/GrowlForTweetbot-Prefix.pch";
 				INFOPLIST_FILE = "GrowlForTweetbot/GrowlForTweetbot-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = bundle;
 			};
